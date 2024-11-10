@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Band_of_Sizzling_Thunder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Band of Sizzling Thunder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belobog_of_the_Architects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Belobog of the Architects.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Broken_Keel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Broken Keel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Celestial_Differentiator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Celestial Differentiator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Champion_of_Streetwise_Boxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Champion of Streetwise Boxing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Duran_Dynasty_of_Running_Wolves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Duran Dynasty of Running Wolves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eagle_of_Twilight_Line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Eagle of Twilight Line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Firesmith_of_Lava_Forging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Firesmith of Lava-Forging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Firmament_Frontline_Glamoth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Firmament Frontline Glamoth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fleet_of_the_Ageless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Fleet of the Ageless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forge_of_the_Kalpagni_Lantern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Forge of the Kalpagni Lantern.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genius_of_Brilliant_Stars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Genius of Brilliant Stars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guard_of_Wuthering_Snow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Guard of Wuthering Snow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hunter_of_Glacial_Forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Hunter of Glacial Forest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inert_Salsotto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Inert Salsotto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iron_Cavalry_Against_the_Scourge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Iron Cavalry Against the Scourge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Izumo_Gensei_and_Takama_Divine_Realm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Izumo Gensei and Takama Divine Realm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Knight_of_Purity_Palace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Knight of Purity Palace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Longevous_Disciple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Longevous Disciple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lushaka_the_Sunken_Seas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Lushaka the Sunken Seas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Messenger_Traversing_Hackerspace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Messenger Traversing Hackerspace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Musketeer_of_Wild_Wheat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Musketeer of Wild Wheat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan_Cosmic_Commercial_Enterprise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Pan-Cosmic Commercial Enterprise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Passerby_of_Wandering_Cloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Passerby of Wandering Cloud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Penacony_Land_of_the_Dreams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Penacony Land of the Dreams.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pioneer_Diver_of_Dead_Waters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Pioneer Diver of Dead Waters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prisoner_in_Deep_Confinement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Prisoner in Deep Confinement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rutilant_Arena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Rutilant Arena.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sacerdos_Relived_Ordeal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sacerdos Relived Ordeal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scholar_Lost_in_Erudition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Scholar Lost in Erudition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sigonia_the_Unclaimed_Desolation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sigonia the Unclaimed Desolation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Space_Sealing_Station" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Space Sealing Station.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprightly_Vonwacq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sprightly Vonwacq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Talia_Kingdom_of_Banditry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Talia Kingdom of Banditry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Ashblazing_Grand_Duke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\The Ashblazing Grand Duke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Wind_Soaring_Valorous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\The Wind-Soaring Valorous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Wondrous_BananAmusement_Park" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\The Wondrous BananAmusement Park.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thief_of_Shooting_Meteor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Thief of Shooting Meteor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wastelander_of_Banditry_Desert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Wastelander of Banditry Desert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Watchmaker_Master_of_Dream_Machinations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Watchmaker Master of Dream Machinations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

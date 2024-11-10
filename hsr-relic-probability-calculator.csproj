@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>hsr_relic_probability_calculator</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Band of Sizzling Thunder.png" />
+    <None Remove="Images\Belobog of the Architects.png" />
+    <None Remove="Images\Broken Keel.png" />
+    <None Remove="Images\Celestial Differentiator.png" />
+    <None Remove="Images\Champion of Streetwise Boxing.png" />
+    <None Remove="Images\Duran Dynasty of Running Wolves.png" />
+    <None Remove="Images\Eagle of Twilight Line.png" />
+    <None Remove="Images\Firesmith of Lava-Forging.png" />
+    <None Remove="Images\Firmament Frontline Glamoth.png" />
+    <None Remove="Images\Fleet of the Ageless.png" />
+    <None Remove="Images\Forge of the Kalpagni Lantern.png" />
+    <None Remove="Images\Genius of Brilliant Stars.png" />
+    <None Remove="Images\Guard of Wuthering Snow.png" />
+    <None Remove="Images\Hunter of Glacial Forest.png" />
+    <None Remove="Images\Inert Salsotto.png" />
+    <None Remove="Images\Iron Cavalry Against the Scourge.png" />
+    <None Remove="Images\Izumo Gensei and Takama Divine Realm.png" />
+    <None Remove="Images\Knight of Purity Palace.png" />
+    <None Remove="Images\Longevous Disciple.png" />
+    <None Remove="Images\Lushaka the Sunken Seas.png" />
+    <None Remove="Images\Messenger Traversing Hackerspace.png" />
+    <None Remove="Images\Musketeer of Wild Wheat.png" />
+    <None Remove="Images\Pan-Cosmic Commercial Enterprise.png" />
+    <None Remove="Images\Passerby of Wandering Cloud.png" />
+    <None Remove="Images\Penacony Land of the Dreams.png" />
+    <None Remove="Images\Pioneer Diver of Dead Waters.png" />
+    <None Remove="Images\Prisoner in Deep Confinement.png" />
+    <None Remove="Images\Rutilant Arena.png" />
+    <None Remove="Images\Sacerdos Relived Ordeal.png" />
+    <None Remove="Images\Scholar Lost in Erudition.png" />
+    <None Remove="Images\Sigonia the Unclaimed Desolation.png" />
+    <None Remove="Images\Space Sealing Station.png" />
+    <None Remove="Images\Sprightly Vonwacq.png" />
+    <None Remove="Images\Talia Kingdom of Banditry.png" />
+    <None Remove="Images\The Ashblazing Grand Duke.png" />
+    <None Remove="Images\The Wind-Soaring Valorous.png" />
+    <None Remove="Images\The Wondrous BananAmusement Park.png" />
+    <None Remove="Images\Thief of Shooting Meteor.png" />
+    <None Remove="Images\Wastelander of Banditry Desert.png" />
+    <None Remove="Images\Watchmaker Master of Dream Machinations.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Band of Sizzling Thunder.png" />
+    <Resource Include="Images\Belobog of the Architects.png" />
+    <Resource Include="Images\Broken Keel.png" />
+    <Resource Include="Images\Celestial Differentiator.png" />
+    <Resource Include="Images\Champion of Streetwise Boxing.png" />
+    <Resource Include="Images\Duran Dynasty of Running Wolves.png" />
+    <Resource Include="Images\Eagle of Twilight Line.png" />
+    <Resource Include="Images\Firesmith of Lava-Forging.png" />
+    <Resource Include="Images\Firmament Frontline Glamoth.png" />
+    <Resource Include="Images\Fleet of the Ageless.png" />
+    <Resource Include="Images\Forge of the Kalpagni Lantern.png" />
+    <Resource Include="Images\Genius of Brilliant Stars.png" />
+    <Resource Include="Images\Guard of Wuthering Snow.png" />
+    <Resource Include="Images\Hunter of Glacial Forest.png" />
+    <Resource Include="Images\Inert Salsotto.png" />
+    <Resource Include="Images\Iron Cavalry Against the Scourge.png" />
+    <Resource Include="Images\Izumo Gensei and Takama Divine Realm.png" />
+    <Resource Include="Images\Knight of Purity Palace.png" />
+    <Resource Include="Images\Longevous Disciple.png" />
+    <Resource Include="Images\Lushaka the Sunken Seas.png" />
+    <Resource Include="Images\Messenger Traversing Hackerspace.png" />
+    <Resource Include="Images\Musketeer of Wild Wheat.png" />
+    <Resource Include="Images\Pan-Cosmic Commercial Enterprise.png" />
+    <Resource Include="Images\Passerby of Wandering Cloud.png" />
+    <Resource Include="Images\Penacony Land of the Dreams.png" />
+    <Resource Include="Images\Pioneer Diver of Dead Waters.png" />
+    <Resource Include="Images\Prisoner in Deep Confinement.png" />
+    <Resource Include="Images\Rutilant Arena.png" />
+    <Resource Include="Images\Sacerdos Relived Ordeal.png" />
+    <Resource Include="Images\Scholar Lost in Erudition.png" />
+    <Resource Include="Images\Sigonia the Unclaimed Desolation.png" />
+    <Resource Include="Images\Space Sealing Station.png" />
+    <Resource Include="Images\Sprightly Vonwacq.png" />
+    <Resource Include="Images\Talia Kingdom of Banditry.png" />
+    <Resource Include="Images\The Ashblazing Grand Duke.png" />
+    <Resource Include="Images\The Wind-Soaring Valorous.png" />
+    <Resource Include="Images\The Wondrous BananAmusement Park.png" />
+    <Resource Include="Images\Thief of Shooting Meteor.png" />
+    <Resource Include="Images\Wastelander of Banditry Desert.png" />
+    <Resource Include="Images\Watchmaker Master of Dream Machinations.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
